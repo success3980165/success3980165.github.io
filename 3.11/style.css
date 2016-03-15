@@ -67,8 +67,10 @@
 }
 #banner .box1 img{
 	/*padding-top: 40px;*/
-	position: relative;
-	top: -40px;
+	position: absolute;
+	top:100px;
+	right: 165px;
+	/*top: -40px;*/
 }
 #zhongjian1{
 	height: 260px;
