@@ -1,0 +1,170 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	height: 80px;
+}
+#header img{
+    margin-left: 220px;
+    float: left;
+}
+#header ul{
+	width: 439px;
+	height: 80px;
+	float: left;
+	list-style: none;
+}
+#header ul li{
+	float: left;
+	margin-left: 43px;
+	margin-top: 34px;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size: 13px;
+}
+#header .clear{
+	clear: both;
+}
+#header ul li:hover{
+	border-bottom: 2px solid #000;
+	font-family:"MS Serif", "New York", serif;
+	font-size: 13px;
+}
+#banner .zuosanjiao{
+	margin-top:105px;
+	margin-left: 150px;
+	float: left;
+}
+#banner .box1{
+	width: 498px;
+	height: 412px;
+	float: left;
+	margin-left: 52px;
+}
+#banner .box1 h1{
+	font-size: 48px;
+	color: #000000;
+	font-family: chuntfive;
+}
+@font-face { 
+	font-family: chuntfive;
+	src:url(font/Chunkfive.otf);
+} 
+#banner .box1 p{
+	font-size: 18px;
+	color: #000000;
+	margin-top: 24px;
+	font-family:"Times New Roman", Times, serif;
+
+}
+#banner .box1 .tupian{
+	margin-top: 105px;
+}
+#banner .box2 {
+	width: 385px;
+	height: 505px;
+	float: left;
+}
+#banner .box2 img{
+    float: left;
+}
+#banner .yousanjiao{
+	float: left;
+	margin-left: 72px;
+	margin-top: 105px;
+}
+#banner .clear{
+	clear: both;
+}
+#zhongjian1{
+	height: 108px;
+}
+#zhongjian1 .mid{
+	width: 115px;
+	height: 14px;
+	margin: 0px auto;
+	list-style: none;
+}
+#zhongjian1 .mid li{
+	float: left;
+	margin-top:35px;
+}
+#zhongjian2{
+	height: 389px;
+	background-image: url(images/yanse1.gif);
+
+
+}
+#zhongjian2 .box3{
+	margin-left: 230px;
+	width: 559px;
+	float: left;
+	overflow: hidden;
+	color: #fff;
+}
+#zhongjian2 .box3 h2{
+   font-family: chuntfive;
+   margin-top: 46px;
+}
+#zhongjian2 .box3 .duan1{
+	margin-top: 35px;
+	font-family: DroidSerif-Italic;
+}
+@font-face { 
+	font-family: ;DroidSerif-Italic
+	src:url(font/DroidSerif-Italic.otf);
+}
+#zhongjian2 .box3 .duan2{
+	margin-top: 32px;
+	font-family: ;DroidSerif-Italic
+
+}
+#zhongjian2 .box4{
+	width: 303px;
+	margin-left: 41px;
+	float: left;
+	color: #fff;
+}
+#zhongjian2 .box4 h3{
+    margin-top: 46px;
+    font-family: chuntfive;
+}
+#zhongjian2 .box4 .nav1{
+	float: left;
+	list-style: none;
+}
+#zhongjian2 .box4 .nav2{
+	list-style: none;
+}
+#zhongjian2 .box4 .nav2 li{
+	margin-top:20px;
+	font-size: 16px;
+}
+#footer{
+	height: 90px;
+	overflow: hidden;
+	color: #fff;
+	background-image: url(images/yanse2.gif);
+}
+#banner .clear{
+	clear: both;
+}
+#footer p{
+	margin-top: 39px;
+	margin-left: 229px;
+	font-size: 14px;
+	float: left;
+}
+#footer .nav3{
+	width: 524px;
+	height: 14px;
+	margin-left: 184px;
+	margin-top: 39px;
+	float: left;
+	list-style: none;
+}
+#footer .nav3 li{
+	float: left;
+	margin-left: 16px;
+	font-size: 14px;
+}

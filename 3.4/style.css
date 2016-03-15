@@ -1,0 +1,335 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	width: 930px;
+	height: 482px;
+	margin: 0 auto;
+	
+	
+}
+#header .top{
+	width: 930px;
+	height: 102px;
+}
+#header .top .logo{
+	width: 109px;
+	height: 102px;
+	float: left;
+	margin-top: 7px
+}
+#header .top .nav{
+	width: 502px;
+	height: 102px;
+	float: left;
+	list-style: none;
+}
+#header .top .nav li{
+	margin-top:43px;
+	margin-left: 31px;
+	float: left;
+	padding-right: 18px;
+	background-image: url(images/sanjiao.gif);
+	background-repeat: no-repeat;
+	background-position: right ;
+	
+}
+#header .top .nav span{
+	display: block;
+
+}
+#header .top .nav1{
+	width: 319px;
+	height: 102px;
+	list-style: none;
+	float: left;
+}
+#header .top .nav1 li{
+    float: left;
+    margin-top: 7px;
+    font-size: 2px;
+   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#header .top .nav1 input{
+	float: right;
+	margin-top: 13px;
+}
+#header .top .nav1 p{
+	margin-top: 13px;
+	float: right;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 2px;
+}
+#header .banner{
+	width: 930px;
+	height: 380px;
+}
+#header .banner img{
+	width: 930px;
+	height: 380px;
+}
+#container{
+	width: 930px;
+	height: 285px;
+	margin: 0 auto;
+	margin-top: 23px;
+}
+#container .container1 {
+	width: 300px;
+	height: 285px;
+	margin-top: 11px;
+	border: 1px solid #cacaca;
+	float: left;
+}
+#container .container1 .sec img{
+	width: 302px;
+	height: 130px;
+	margin-top: 11px;
+}
+#container .container1 .nav1{
+	width: 302px;
+	list-style: none;
+}
+#container .container1 .nav1 li{
+	width: 300px;
+	padding-left: 10px;
+	font-size: 2px;
+	margin-top: 14px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-image: url(images/sanjiao1.gif);
+	background-repeat: no-repeat;
+	background-position: 13px 260px 102px 40px;
+}
+#container .container2{
+	width: 300px;
+	height: 285px;
+	margin-left: 8px;
+	margin-top: 11px;
+	border: 1px solid #cacaca;
+	float: left;
+}
+#container .container2 .sec1 img{
+	width: 302px;
+	height: 130px;
+	margin-top: 11px;
+}
+#container .container2 .nav2{
+	width: 302px;
+	list-style: none;
+	margin-top: 14px;
+}
+#container .container2 .nav2 li{
+	width: 300px;
+	font-size: 2px;
+	margin-top: 7px;
+	padding-left: 10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-image: url(images/sanjiao1.gif);
+	background-repeat: no-repeat;
+	background-position: 13px 260px 102px 40px;
+}
+#container .container3 {
+	width: 308px;
+	height: 285px;
+	margin-left: 8px;
+	margin-top: 11px;
+	border: 1px solid #cacaca;
+	float: left;
+}
+#container .container3 .sec2 img{
+	width: 302px;
+	height: 130px;
+	margin-top: 11px;
+}
+#container .container3 .nav3{
+	width: 302px;
+	list-style: none;
+	margin-top: 14px;
+}
+#container .container3 .nav3 li{
+	width: 300px;
+	font-size: 2px;
+	margin-top: 7px;
+	padding-left: 10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-image: url(images/sanjiao1.gif);
+	background-repeat: no-repeat;
+	background-position: 13px 260px 102px 40px
+}
+
+#zhongjian{
+	width: 930px;
+	height: 47px;
+	margin: 0 auto;
+	margin-top: 13px;
+}
+#zhongjian .tupian1{
+	margin-top:  13px;
+
+}
+#zhongjian .tupian{
+	margin-top: 13px;
+	float: right;
+}
+/*#zhongjian .search-box{
+	margin-left: 25px;
+}
+#zhongjian .search-box input{
+	width: 190px;
+	float: left;
+	margin-top: 15px;
+}
+#zhongjian .sec3 {
+	width: 18px;
+	height: 12px;
+	
+}
+#zhongjian .sec3 img{
+	width: 18px;
+	height: 12px;
+	margin-left: 3px;
+	margin-bottom: 17px;
+}
+#zhongjian img{
+	width: 67px;
+	height: 17px;
+	margin-bottom: 25px;
+}*/
+#footer{
+	width: 930px;
+	height: 221px;
+	border: 1px solid #cacaca;
+	margin: 0px auto;
+}
+#footer .box{
+	width: 206px;
+	height: 222px;
+	float: left;;
+}
+#footer .box .biaoti1{
+    margin-top: 22px;
+    margin-left: 23px;
+}
+#footer .box .box1{
+	width: 186px;
+	height: 176px;
+	margin-top: 12px;
+	margin-left: 21px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 3px;
+	list-style: none;
+	float: left;
+}
+#footer .box .box1 li{
+	list-style-image: url(images/sanjiao1.gif);
+}
+#footer .box2{
+	width: 165px;
+	height: 222px;
+	float: left;
+}
+#footer .box2 .biaoti2{
+	margin-top: 23px;
+	margin-left: 22px;
+}
+#footer .box2 .box3{
+	width: 186px;
+	height: 176px;
+	margin-top: 12px;
+	margin-left: 10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 3px;
+	list-style: none;
+}
+#footer .box2 .box3 li{
+	list-style-image: url(images/sanjiao1.gif);
+}
+#footer .box4{
+	width: 165px;
+	height: 222px;
+	float: left;
+}
+#footer .box4 .biaoti3{
+	margin-top: 23px;
+	margin-left: 22px;
+}
+#footer .box4 .box5{
+	width: 186px;
+	height: 176px;
+	margin-top: 12px;
+	margin-left: 10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 3px;
+	list-style: none;
+}
+#footer .box4 .box5 li{
+	list-style-image: url(images/sanjiao1.gif);
+}
+#footer .box6{
+	width: 190px;
+	height: 222px;
+	float: left;
+}
+#footer .box6 .biaoti4{
+	margin-top: 23px;
+	margin-left: 22px;
+	font-size: 17px;
+}
+#footer .box6 .box7{
+	width: 186px;
+	height: 176px;
+	margin-top: 12px;
+	margin-left: 10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 3px;
+	list-style: none;
+}
+#footer .box6 .box7 li{
+	list-style-image: url(images/sanjiao1.gif);
+}
+#footer .box8{
+	width: 165px;
+	height: 222px;
+	float: left;
+}
+#footer .box8 .biaoti5{
+	margin-top: 23px;
+	margin-left: 22px;
+	font-size: 17px;
+}
+#footer .box8 .box9{
+	width: 186px;
+	height: 176px;
+	margin-top: 12px;
+	margin-left: 10px;
+	list-style: none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 3px;
+}
+#footer .box8 .box9 li{
+	list-style-image: url(images/sanjiao1.gif);
+}
+#end{
+     height: 123px;
+     margin-top: 33px;
+ }
+ #end ul li{
+ 	float: left;
+ 	border-right: 1px;
+ 	padding-left: 2px;
+ 	padding-right: 2px;
+ 	list-style: none;
+ }
+ #end ul:first-child{
+ 	width: 800px;margin: 0px auto;font-size: 5px;
+ }
+ #end ul:nth-child(2){
+ 	width: 930px;margin: 0px auto;font-size: 5px;
+ }
+ #end ul:nth-child(3){
+ 	width: 700px;margin: 0px auto;font-size: 5px;
+ }
+ #end ul:nth-child(4){
+ 	width: 80px;margin: 0px auto;font-size: 5px;
+ }

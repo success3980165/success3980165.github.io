@@ -1,0 +1,254 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	width: 1263px;
+	height: 101px;
+	margin: 0px auto;
+}
+#header .box1{
+	height: 31px;
+}
+#header .box1 .biaoti1{
+	margin-left: 149px;
+	width: 227px;
+	height: 13px;
+	font-size:10px;
+	margin-top:10px;
+	float:left;
+}
+#header .box1 .biaoti2{
+	margin-right:149px;
+	width: 86px;
+	height: 13px;
+	float: right;
+	font-size: 10px;
+	margin-top: 10px;
+}
+#header .box2{
+	height: 70px;
+	background-color:#0085c3;
+}
+#header .box2 img{
+	width: 49px;
+	height: 49px;
+	margin-left: 149px;
+	margin-top: 11px;
+	float: left;
+}
+#header .box2 .list1{
+	width: 425px;
+	height: 49px;
+	margin-top: 11px;
+	float: left;
+	list-style: none;
+}
+#header .box2 .list1 li{
+	float: left;
+	margin-left: 36px;
+	margin-top: 19px;
+}
+#header .box2 .wuzi{
+	width: 337px;
+	height: 41px;
+	float-right:149px;
+}
+/*#header .box2 .search-box{
+	width: 337px;
+	height: 41px;
+	margin-left: 155px;
+	margin-top: 27px;
+	float: left;
+}*/
+#banner{
+	width: 930px;
+	height: 705px;
+	margin: 0px auto;
+}
+#banner .mid1{
+	width: 930px;
+	height: 380px;
+}
+#banner .mid2{
+	width: 930px;
+	height: 298px;
+	margin-top: 32px;
+}
+#banner .mid2 .box2{
+	width: 300px;
+	height: 298px;
+	list-style: none;
+	border: 1px solid #cacaca;
+	float: left;
+}
+#banner .mid2 .box2 p{
+	height: 32px;
+	margin-top: 10px;
+	margin-left: 21px;
+}
+#banner .mid2 .box2 .smallbox2{
+	height: 131px;
+}
+#banner .mid2 .box2 .list2{
+	height: 131px;
+	list-style: none;
+}
+#banner .mid2 .box2 .list2 li{
+	font-size: 14px;
+	padding-left: 13px;
+	background-image: url(images/sanjiao1.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#banner .mid2 .box3{
+	width: 300px;
+	height: 298px;
+	margin-left: 11px;
+	list-style: none;
+	border: 1px solid #cacaca;
+	float: left;
+}
+#banner .mid2 .box3 p{
+	height: 32px;
+	margin-top: 10px;
+	margin-left: 21px;
+}
+#banner .mid2 .box3 .smallbox3{
+	height: 131px;
+}
+#banner .mid2 .box3 .list3{
+	height: 131px;
+	list-style: none;
+}
+#banner .mid2 .box3 .list3 li{
+	font-size: 14px;
+	padding-left: 13px;
+	background-image: url(images/sanjiao1.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#banner .mid2 .box4{
+	width: 300px;
+	height: 298px;
+	margin-left: 11px;
+	list-style: none;
+	border: 1px solid #cacaca;
+	float: left;
+}
+#banner .mid2 .box4 p{
+	height: 32px;
+	margin-top: 10px;
+	margin-left: 21px;
+}
+#banner .mid2 .box4 .smallbox4{
+	height: 131px;
+}
+#banner .mid2 .box4 .list4{
+	height: 131px;
+	list-style: none;
+}
+#banner .mid2 .box4 .list4 li{
+	font-size: 14px;
+	padding-left: 13px;
+	background-image: url(images/sanjiao1.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#footer .box5{
+	height: 339px;
+	margin-top: 10px;
+	overflow: hidden;
+	background-color:#0085c3; 
+	color: #fff;
+
+}
+#footer .box5 .nav1{
+	width: 197px;
+	height: 234px;
+	margin-top: 32px;
+	list-style: none;
+	margin-left: 149px;
+	float: left;
+	color: #fff;
+}
+#footer .box5 .nav1 .ziti1{
+	font-family:"MS Serif", "New York", serif;
+	color: #fff;
+}
+#footer .box5 .nav2{
+	width: 197px;
+	height: 234px;
+	margin-top: 32px;
+	list-style: none;
+	float: left;
+}
+#footer .box5 .nav2 .ziti2{
+	font-family:"MS Serif", "New York", serif;
+}
+#footer .box5 .nav3{
+	width: 197px;
+	height: 234px;
+	margin-top: 32px;
+	list-style: none;
+	float: left;
+}
+#footer .box5 .nav3 .ziti3{
+	font-family:"MS Serif", "New York", serif;
+}
+#footer .box5 .nav4{
+	width: 197px;
+	height: 234px;
+	margin-top: 32px;
+	list-style: none;
+	float: left;
+}
+#footer .box5 .nav4 .ziti4{
+	font-family:"MS Serif", "New York", serif;
+}
+#footer .box5 .hezi{
+	width: 197px;
+	height: 234px;
+	margin-top:32px;
+	list-style: none;
+	float: left;
+}
+#footer .box5  .hezi .tupian6{
+	margin-top:32px;
+
+}
+#footer .box5  .hezi p{
+	margin-top: 12px;
+	float: left;
+
+}
+#footer .box5 .hezi .tupian7{
+	margin-top: 12px;
+	float: left;
+}
+#footer .box5 .footer1 {
+	width: 543px;
+	height: 33px;
+	margin: 0px auto;
+	list-style: none;
+}
+#footer .box5 .footer1 li{
+	float: left;
+	font-size: 15px;
+}
+.clear{
+	clear: both;
+}
+#footer .box5 .footer2{
+	width: 185px;
+	height:9px;
+	margin: 0px auto;
+	list-style: none;
+}
+#footer .box5 .footer2 li{
+	float: left;
+	padding-right: 23px;
+	background-image: url(images/sanjiao3.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+}
