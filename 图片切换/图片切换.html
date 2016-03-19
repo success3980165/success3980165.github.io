@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<img class="pic" src="images/1.jpg" alt="">
+	<div class="but">
+	<input  type="button" value="1">
+	<input  type="button" value="2">
+	<input  type="button" value="3">
+	<input  type="button" value="4">
+    </div>
+
+
+    <script src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+        
+      // $(".but input").click(function(){
+      // 	alert( $(this).index());
+      	
+      // })
+      $(".but input").click(function(){
+      	var ind =$(this).index();
+      	var num= ind + 1;
+      	var src= "images/" + num + ".jpg";
+      	$(".pic").attr("src",src);
+        $(this).css("background-color","red");
+        $(this).siblings().css("background-color","white");
+
+      })
+	</script>
+</body>
+</html>

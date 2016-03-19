@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	.list{
+		list-style: none;
+		width: 408px;
+		height: 50px;
+	}
+	.list li{
+		width: 100px;
+		height: 50px;
+		background-color: #f00;
+		float: left;
+		border: 1px solid #000;
+	}
+	.box{
+		list-style: none;
+/*		width: 408px;
+		height: 100px;*/
+	}
+/*	.box li{
+		width: 408px;
+		height: 100px;
+	}
+*/	.box .s1{
+		background-color: #0f0;
+		width: 408px;
+		height: 100px;
+	}
+	.box .s2{
+		background-color: #00f;
+		width: 408px;
+		height: 100px;
+	}
+	.box .s3{
+		background-color: #ff0;
+		width: 408px;
+		height: 100px;
+	}
+	.box .s4{
+		background-color: #ccc;
+		width: 408px;
+		height: 100px;
+	}
+
+
+	</style>
+</head>
+<body>
+	<ul class="list">
+		<li class="l1">选项1</li>
+		<li class="l2">选项2</li>
+		<li class="l3">选项3</li>
+		<li class="l4">选项4</li>
+	</ul>
+	<ul class="box">
+		<li class="s1">一</li>
+		<li class="s2">二</li>
+		<li class="s3">三</li>
+		<li class="s4">四</li>
+	</ul>
+
+
+
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript">
+	$(".list li").click(function(){
+		var index = $(this).index()
+		$(".box li").eq(index).css("display","block").siblings().css("display","none");
+	})
+</script>
+
+</body>
+</html>

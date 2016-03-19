@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			height: 1000px;
+		}
+		.pic{
+			width: 880px;
+			height: 200px;
+			list-style: none;
+		}
+        .pic li{
+        	float: left;
+        	margin-left: 20px;
+        	width: 100px;
+        	height: 100px;
+        	overflow: hidden;
+        }
+        .pic img{
+        	width: 100px;
+        	height: 100px;
+        }
+        .bigpic{
+        	list-style: none;
+        }
+        .bigpic li{
+        	float: left;
+        	width: 200px;
+        	height: 200px;
+        	display: none;
+        	position: absolute;
+        	left: 0px;
+        	top: 0px;
+        }
+	</style>
+</head>
+<body>
+	<ul class="pic">
+		<li><img src="images/1.jpg" alt=""></li>
+		<li><img src="images/2.jpg" alt=""></li>
+		<li><img src="images/3.jpg" alt=""></li>
+		<li><img src="images/4.jpg" alt=""></li>
+	</ul>
+	<ul class="bigpic">
+		<li><img src="images/1.jpg" alt=""></li>
+		<li><img src="images/2.jpg" alt=""></li>
+		<li><img src="images/3.jpg" alt=""></li>
+		<li><img src="images/4.jpg" alt=""></li>
+	</ul>
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+			$(".pic li").mouseenter(function(){
+				var index = $(this).index();
+				$(".bigpic li").eq(index).show();
+			})
+			$("body").mousemove(function(event){
+				var x = event.pageX;
+				var y = event.pageY;
+				$(".bigpic li").css({"top":y+10 , "left":x+10});//这是定位鼠标的位置，图片在li中！ 
+			})
+			$
+			(".pic li").mouseleave(function(){
+				var index = $(this).index();
+				$(".bigpic li").eq(index).hide();
+			})
+			
+
+	</script>
+</body>
+</html>
