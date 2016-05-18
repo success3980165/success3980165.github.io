@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before,.clearfix:after{
+	display: block;
+	content: "";
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+@font-face{
+	font-family: myfont;
+	src:url(../fonts/STHeiti-Light.ttc);
+}
+html,body{
+	font-family: myfont;
+}
+#container{
+	width: 100%;
+}
+header{
+	width: 100%;
+	background-color: #50bbdb;
+	height: 1rem;
+/*	overflow: hidden;*/
+}
+.box1{
+	margin: 0px auto;
+	line-height:0.53rem;
+	width: 3.3rem;
+	height: 0.55rem;
+	/*padding-top: 0.25rem;*/
+	/*float: left;*/
+
+}
+.smallbox1{
+	width: 1.63rem;
+	height: 0.53rem;
+	border: 1px solid #fff;	
+	color: #50bbdb;
+	font-size: 0.26rem;
+	float: left;
+	background-color: #fff;
+	text-align: center;
+	line-height: 0.53rem;
+}
+.smallbox2{
+	width: 1.63rem;
+	height: 0.53rem;
+	border: 1px solid #fff;	
+	color: #fff;
+	font-size: 0.26rem;
+	float: left;
+	text-align: center;
+	line-height: 0.53rem;
+}
+.box2{
+	width: 1.36rem;
+	/*height: 0.58rem;*/
+	padding-top: 0.25rem;
+	color: #fff;
+	padding-left: 0.14rem;
+}
+.box2 p{
+	font-size: 0.18rem;
+	padding-top: 0.2rem;
+	float: left;
+	padding-left: 0.1rem;
+}
+.box2 .shousuo{
+	font-size: 0.6rem;
+	float: left;
+}
+header .camera{
+	float: right;
+	font-size: 0.6rem;
+	color: #fff;
+	margin-top: -0.58rem;
+	margin-right: 0.25rem;
+}
+figure img{
+	width: 100%;
+	display: block;
+}
+.box3{
+	height: 1.89rem;
+	width: 100%;
+	margin:0px auto;
+}
+.box3 .quanbu{
+	width: 1.24rem;
+	display: block;
+	float: left;
+	padding-top: 0.33rem;
+	padding-left: 0.46rem;
+}
+.box3 .jingnei{
+	width: 1.24rem;
+	display: block;
+	float: right;
+	padding-top: 0.33rem;
+	padding-right: 0.46rem;
+
+}
+.box3 .jingwai{
+	width: 1.24rem;
+	display: block;
+	float: right;
+	padding-top: 0.33rem;
+	margin: 0px auto;
+	text-align: center;
+	margin-right: 0.81rem;	
+}
+.box4{
+	width: 100%;
+}
+.box4 .pic1{
+	width: 96%;
+	margin: 0px auto;
+	display: block;
+}
+.box4 .pic2,.pic3,.pic4,.pic5{
+	width: 96%;
+	margin: 0px auto;
+	display: block;
+	margin-top: 0.1rem;
+}
+section .box6{
+	height: 0.68rem;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+section .box6 p{
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.68rem;
+}
+.box6 .xia{
+	font-size: 0.2rem;
+	color: #d3d3d3;
+}
+.nav1 li{
+	list-style: none;
+	float: left;
+	margin-left: 0.8rem;
+	margin-top: -0.3rem;
+}
+.nav1 .zhuye{
+	font-size: 0.6rem;
+}
+.nav1 .fa-paper-plane{
+	font-size: 0.6rem;
+}
+.nav1 .fa-map-o{
+	font-size: 0.6rem;
+}
+.nav1 .fa-user{
+	font-size: 0.6rem;
+}
+.nav1 p{
+	font-size: 0.2rem;
+}
+.nav1 span{
+	margin-left: 0.3rem;
+	color: #50bbdb;
+}

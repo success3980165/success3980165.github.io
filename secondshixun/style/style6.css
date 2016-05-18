@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before,.clearfix:after{
+	display: block;
+	content: "";
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+@font-face{
+	font-family: myfont;
+	src:url(fonts/STHeiti-Light.ttc);
+}
+html,body{
+	font-family: myfont;
+}
+#container{
+	width: 100%;
+}
+header{
+	width: 100%;
+	background-color: #50bbdb;
+	color: #fff;
+	overflow: hidden;
+	border-bottom: 3px solid #ccc;
+}
+header .nav1{
+	/*height: 0.88rem;*/
+	background-color: #50bbdb;
+	color: #fff;
+	text-align: center;
+	/*line-height: 0.88rem;*/
+	width: 2rem;
+	margin: 0px auto;
+	margin-top: 0.19rem;
+	margin-bottom: 0.05rem
+}
+header .nav1 li{
+	list-style: none;
+	font-size: 0.28rem;
+}
+header .nav1 span{
+	font-size: 0.18rem;
+}
+header .zuo{
+	font-size: 0.4rem;
+	float: left;
+	margin-top: 0.23rem;
+	margin-left: 0.45rem;
+}
+header .more{
+	font-size: 0.34rem;
+	float: right;
+	margin-top: -0.58rem;
+	margin-right: 0.21rem;
+}
+section{
+	width: 100%;
+}
+.box1{
+	border-bottom: 17px solid #f1f1f1;
+}
+.box1 .pic1{
+	float: left;
+	margin-top: -0.10rem;
+}
+.box1 h1{
+	list-style: none;
+	font-size: 0.24rem;
+	margin-left: 1.93rem;
+	margin-top: 0.10rem;
+}
+.box1 .list2{
+	list-style: none;
+	font-size: 0.24rem;
+	margin-left: 1.93rem;
+	margin-top: 0.12rem;
+}
+.box1 .list3{
+	list-style: none;
+	font-size: 0.20rem;
+	color: #a7a7a7;
+	margin-left: 1.93rem;
+	margin-top: 0.11rem;
+}
+.box1 .list4{
+	margin-left: 2.17rem;
+	margin-top: 0.09rem;
+	font-size: 0.18rem;
+	height: 0.37rem;
+	line-height: 0.37rem;
+}
+.box1 .ren{
+	margin-top: 0.09rem;
+	margin-left: 0.14rem;
+	float: left;
+}
+.box1 span{
+	float: right;
+	color: #ea561d;
+	font-size: 0.24rem;
+}
+.box1 .qian{
+	font-size: 0.12rem;
+}
+
+
+.box2{
+	border-bottom: 17px solid #f1f1f1;
+}
+.box2 .pic1{
+	float: left;
+	margin-top: -0.10rem;
+}
+.box2 h1{
+	list-style: none;
+	font-size: 0.24rem;
+	margin-left: 1.93rem;
+	margin-top: 0.10rem;
+}
+.box2 .list2{
+	list-style: none;
+	font-size: 0.24rem;
+	margin-left: 1.93rem;
+	margin-top: 0.12rem;
+}
+.box2 .list3{
+	list-style: none;
+	font-size: 0.20rem;
+	color: #a7a7a7;
+	margin-left: 1.93rem;
+	margin-top: 0.11rem;
+}
+.box2 .list4{
+	margin-left: 2.17rem;
+	margin-top: 0.09rem;
+	font-size: 0.18rem;
+	height: 0.37rem;
+	line-height: 0.37rem;
+}
+.box2 .ren{
+	margin-top: 0.09rem;
+	margin-left: 0.14rem;
+	float: left;
+}
+.box2 span{
+	float: right;
+	color: #ea561d;
+	font-size: 0.24rem;
+}
+.box2 .qian{
+	font-size: 0.12rem;
+}
+
+
+.box3{
+	border-bottom: 17px solid #f1f1f1;
+}
+.box3 .pic1{
+	float: left;
+	margin-top: -0.10rem;
+}
+.box3 h1{
+	list-style: none;
+	font-size: 0.24rem;
+	margin-left: 1.93rem;
+	margin-top: 0.10rem;
+}
+.box3 .list2{
+	list-style: none;
+	font-size: 0.24rem;
+	margin-left: 1.93rem;
+	margin-top: 0.12rem;
+}
+.box3 .list3{
+	list-style: none;
+	font-size: 0.20rem;
+	color: #a7a7a7;
+	margin-left: 1.93rem;
+	margin-top: 0.11rem;
+}
+.box3 .list4{
+	margin-left: 2.17rem;
+	margin-top: 0.09rem;
+	font-size: 0.18rem;
+	height: 0.37rem;
+	line-height: 0.37rem;
+}
+.box3 .ren{
+	margin-top: 0.09rem;
+	margin-left: 0.14rem;
+	float: left;
+}
+.box3 span{
+	float: right;
+	color: #ea561d;
+	font-size: 0.24rem;
+}
+.box3 .qian{
+	font-size: 0.12rem;
+}
+
+
+
+.box4{
+	border-bottom: 1px solid #f1f1f1;
+}
+.box4 .pic1{
+	float: left;
+	margin-top: -0.10rem;
+	display: block;
+}
+.box4 h1{
+	list-style: none;
+	font-size: 0.24rem;
+	margin-left: 1.93rem;
+	margin-top: 0.10rem;
+}
+.box4 .list2{
+	list-style: none;
+	font-size: 0.24rem;
+	margin-left: 1.93rem;
+	margin-top: 0.12rem;
+}
+.box4 .list3{
+	list-style: none;
+	font-size: 0.20rem;
+	color: #a7a7a7;
+	margin-left: 1.93rem;
+	margin-top: 0.11rem;
+}
+
+.box4 .list4{
+	margin-left: 2.17rem;
+	margin-top: 0.09rem;
+	font-size: 0.18rem;
+	height: 0.37rem;
+	line-height: 0.37rem;
+}
+.box4 .ren{
+	margin-top: 0.09rem;
+	margin-left: 0.14rem;
+	float: left;	
+}
+.box4 span{
+	float: right;
+	color: #ea561d;
+	font-size: 0.24rem;
+}
+.box4 .qian{
+	font-size: 0.12rem;
+}
+footer .pic2{
+	margin-left: 0.28rem;
+}
+footer .pic3{
+	margin-left: 0.5rem;
+}
+footer .pic4{
+	margin-left: 0.5rem;
+}
+footer .pic5{
+	margin-left: 0.5rem;
+}

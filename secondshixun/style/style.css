@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before,.clearfix:after{
+	display: block;
+	content: "";
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+@font-face{
+	font-family: myfont;
+	src:url(fonts/STHeiti-Light.ttc);
+}
+html,body{
+	font-family: myfont;
+}
+#bigbox{
+	width: 100%;
+	background-color: #50bbdb;
+}
+#bigbox h1{
+	width: 2rem;
+	font-size: 0.28rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	color: #fff;	
+	/*float: left;*/
+	margin: 0px auto;
+}
+#bigbox .fa{
+	font-size: 0.5rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.19rem;
+	color: #fff;
+}
+#box1{
+	width: 100%;
+}
+#box1 h1{
+	height: 0.74rem;
+	font-size: 0.24rem;
+	float: left;
+	line-height: 0.74rem;
+	width: 3.19rem;
+	text-align: center;
+	border-right: 0.01rem solid #d2d2d2;
+	border-bottom: 0.14rem solid #f1f1f1;
+}
+#box1 h2{
+	width: 3.19rem;
+	height: 0.74rem;
+	font-size: 0.24rem;
+	float: right;
+	line-height: 0.74rem;
+	text-align: center;
+	border-bottom: 0.14rem solid #f1f1f1;
+}
+#box1 .fa{
+	margin-left: 0.14rem;
+	color: #b5b5b5;
+}
+.list1{
+	position: absolute;
+	top: 1.4rem;
+	border: 1px auto;
+	display: none;
+}
+.list1 li{
+	background-color: #fff;
+	height: 0.55rem;
+	line-height:0.55rem;
+	font-size: 0.24rem;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	width: 6.4rem;
+}
+.list2{
+	position: absolute;
+	top: 1.4rem;
+	border: 1px auto;
+	display: none;
+}
+.list2 li{
+	background-color: #fff;
+	height: 0.5rem;
+	line-height:0.5rem;
+	font-size: 0.24rem;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	width: 6.4rem;
+}
+
+
+#box2{
+	width: 100%;
+	border-bottom: 15px solid #f1f1f1;
+}
+#box2 .nav{
+	height: 0.34rem;
+	font-size: 0.18rem;
+	border-bottom: 1px solid #b5b5b5;
+	margin: 0px auto;
+	width: 6.02rem;
+}
+.nav li{
+	float: left;
+	list-style: none;
+	padding-left: 0.17rem;
+	line-height: 0.34rem;
+}
+.nav span{
+	padding-left: 0.32rem;
+}
+#box2 h1{
+	font-size: 0.24rem;
+	margin-left: 0.21rem;
+	margin-top: 0.15rem;
+}
+.nav1{
+	float: left;
+	margin-top: 0.25rem;
+/*	margin-bottom: 0.18rem;*/
+	height: 0.48rem;
+}
+.nav1 li{
+	list-style: none;
+	float: left;
+	font-size: 0.18rem;
+	margin-left: 0.19rem;
+}
+.box3 p{
+	float: right;
+	font-size: 0.18rem;
+	color: #f00;
+	margin-top: 0.25rem;
+	margin-right: 2.59rem;
+/*	margin-bottom: 0.18rem;*/
+height: 0.48rem;
+}
+.box3 p span{
+	font-size: 0.1rem;
+}
+.box3{
+	width: 100%;
+	border-bottom: 1px solid #b5b5b5;
+
+}
+.box4 p{
+	color: #f00;
+	font-size: 0.24rem;
+	width: 1rem;
+	margin-top: 0.14rem;
+	margin-left: 0.2rem;
+	float: left;
+
+}
+.box5{
+	font-size: 0.24rem;
+	margin-top: 0.14rem;
+	margin-right: 0.2rem;
+	float:right;
+	border: 1px solid #bebebe;
+	margin-bottom: 0.09rem;
+}
+
+
+
+
+#box6{
+	width: 100%;
+		border-bottom: 15px solid #f1f1f1;
+}
+#box6 .nav2{
+	height: 0.34rem;
+	font-size: 0.18rem;
+	border-bottom: 1px solid #b5b5b5;
+	margin: 0px auto;
+	width: 6.02rem;
+}
+.nav2 li{
+	float: left;
+	list-style: none;
+	padding-left: 0.17rem;
+	line-height: 0.34rem;
+}
+.nav2 span{
+	padding-left: 0.32rem;
+}
+#box6 h1{
+	font-size: 0.24rem;
+	margin-left: 0.21rem;
+	margin-top: 0.15rem;
+}
+.nav3{
+	float: left;
+	margin-top: 0.25rem;
+/*	margin-bottom: 0.18rem;*/
+	height: 0.48rem;
+}
+.nav3 li{
+	list-style: none;
+	float: left;
+	font-size: 0.18rem;
+	margin-left: 0.19rem;
+}
+.box7 p{
+	float: right;
+	font-size: 0.18rem;
+	color: #f00;
+	margin-top: 0.25rem;
+	margin-right: 2.59rem;
+/*	margin-bottom: 0.18rem;*/
+height: 0.48rem;
+}
+.box7 p span{
+	font-size: 0.1rem;
+}
+.box7{
+	width: 100%;
+	border-bottom: 1px solid #b5b5b5;
+}
+.box8 p{
+	color: #f00;
+	font-size: 0.24rem;
+	width: 1rem;
+	margin-top: 0.14rem;
+	margin-left: 0.2rem;
+	float: left;
+
+}
+.box9{
+	font-size: 0.24rem;
+	margin-top: 0.14rem;
+	margin-right: 0.2rem;
+	float:right;
+	border: 1px solid #bebebe;
+	margin-bottom: 0.09rem;
+}
+
+
+
+#box10{
+	width: 100%;
+		border-bottom: 15px solid #f1f1f1;
+}
+#box10 .nav4{
+	height: 0.34rem;
+	font-size: 0.18rem;
+	border-bottom: 1px solid #b5b5b5;
+	margin: 0px auto;
+	width: 6.02rem;
+}
+.nav4 li{
+	float: left;
+	list-style: none;
+	padding-left: 0.17rem;
+	line-height: 0.34rem;
+}
+.nav4 span{
+	padding-left: 0.32rem;
+}
+#box10 h1{
+	font-size: 0.24rem;
+	margin-left: 0.21rem;
+	margin-top: 0.15rem;
+}
+.nav5{
+	float: left;
+	margin-top: 0.25rem;
+/*	margin-bottom: 0.18rem;*/
+	height: 0.48rem;
+}
+.nav5 li{
+	list-style: none;
+	float: left;
+	font-size: 0.18rem;
+	margin-left: 0.19rem;
+}
+.box11 p{
+	float: right;
+	font-size: 0.18rem;
+	color: #f00;
+	margin-top: 0.25rem;
+	margin-right: 2.59rem;
+/*	margin-bottom: 0.18rem;*/
+height: 0.48rem;
+}
+.box11 p span{
+	font-size: 0.1rem;
+}
+.box11{
+	width: 100%;
+	border-bottom: 1px solid #b5b5b5;
+}
+.box12 p{
+	color: #f00;
+	font-size: 0.24rem;
+	width: 1rem;
+	margin-top: 0.14rem;
+	margin-left: 0.2rem;
+	float: left;
+
+}
+.box13{
+	font-size: 0.24rem;
+	margin-top: 0.14rem;
+	margin-right: 0.2rem;
+	float:right;
+	border: 1px solid #bebebe;
+	margin-bottom: 0.09rem;
+}
+
+
+#box14{
+	width: 100%;
+		border-bottom: 15px solid #f1f1f1;
+}
+#box14 .nav6{
+	height: 0.34rem;
+	font-size: 0.18rem;
+	border-bottom: 1px solid #b5b5b5;
+	margin: 0px auto;
+	width: 6.02rem;
+}
+.nav6 li{
+	float: left;
+	list-style: none;
+	padding-left: 0.17rem;
+	line-height: 0.34rem;
+}
+.nav6 span{
+	padding-left: 0.32rem;
+}
+#box14 h1{
+	font-size: 0.24rem;
+	margin-left: 0.21rem;
+	margin-top: 0.15rem;
+}
+.nav7{
+	float: left;
+	margin-top: 0.25rem;
+/*	margin-bottom: 0.18rem;*/
+	height: 0.48rem;
+}
+.nav7 li{
+	list-style: none;
+	float: left;
+	font-size: 0.18rem;
+	margin-left: 0.19rem;
+}
+.box15 p{
+	float: right;
+	font-size: 0.18rem;
+	color: #f00;
+	margin-top: 0.25rem;
+	margin-right: 2.59rem;
+/*	margin-bottom: 0.18rem;*/
+height: 0.48rem;
+}
+.box15 p span{
+	font-size: 0.1rem;
+}
+.box15{
+	width: 100%;
+	border-bottom: 1px solid #b5b5b5;
+}
+.box16 p{
+	color: #f00;
+	font-size: 0.24rem;
+	width: 1rem;
+	margin-top: 0.14rem;
+	margin-left: 0.2rem;
+	float: left;
+
+}
+.box17{
+	font-size: 0.24rem;
+	margin-top: 0.14rem;
+	margin-right: 0.2rem;
+	float:right;
+	border: 1px solid #bebebe;
+	margin-bottom: 0.09rem;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/font-awesome.min.css">
+</head>
+<body>
+	<div id="bigbox">
+		<i class="fa fa-chevron-left" aria-hidden="true"></i>
+		<h1>订单列表</h1>
+	</div>
+	<div class="clearfix">
+	<div id="box1">
+		<h1><span class="fenlei">全部分类</span>
+			<i class="fa fa-caret-down sanjiao1" aria-hidden="true"></i>
+		</h1>
+		<h2><span class="shijian">按时间排序</span>
+			<i class="fa fa-caret-down sanjiao2" aria-hidden="true"></i>
+		</h2>
+	</div>
+	</div>
+	<ul class="list1">
+			<li>按下单时间排序</li>
+			<li>按出行时间排序</li>
+	</ul>
+	<ul class="list2">
+		<li>全部分类</li>
+		<li>待出行</li>
+		<li>待支付</li>
+		<li>待评价</li>
+		<li>已取消</li>
+	</ul>
+	<div id="box2">
+		<ul class="nav clearfix">
+			<li>订单号:</li>
+			<li>7185351</li>
+			<li>|<li>
+			<li>待出行</li>
+			<li><span>预订时间:</span></li>
+			<li>2015-12-29</li>
+			<li>12:04:00</li>
+		</ul>
+		<h1>[春节]<魅力湘西过大年>湘西年夜饭，北京直飞</h1>
+		<div class="box3 clearfix">
+		<ul class="nav1 clearfix">
+			<li>自驾游</li>
+			<li>2016-02-07出发</li>
+		</ul>
+		<p><span>￥</span>4580</p>
+		</div>
+		<div class="box4 clearfix">
+			<p>待出行</p>
+			<div class="box5">
+				取消 <i class="fa fa-caret-down" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="box6">
+		<ul class="nav2 clearfix">
+			<li>订单号:</li>
+			<li>7185351</li>
+			<li>|<li>
+			<li>待支付</li>
+			<li><span>预订时间:</span></li>
+			<li>2015-12-28</li>
+			<li>12:04:00</li>
+		</ul>
+		<h1>[5月]<阿尔山童话世界冰雪温泉之旅>北京直飞....</h1>
+		<div class="box7 clearfix">
+		<ul class="nav3 clearfix">
+			<li>自驾游</li>
+			<li>2016-05-27出发</li>
+		</ul>
+		<p><span>￥</span>4580</p>
+		</div>
+		<div class="box8 clearfix">
+			<p>待支付</p>
+			<div class="box9">
+				付款 <i class="fa fa-caret-down" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="box10">
+		<ul class="nav4 clearfix">
+			<li>订单号:</li>
+			<li>7185351</li>
+			<li>|<li>
+			<li>待点评</li>
+			<li><span>预订时间:</span></li>
+			<li>2015-12-27</li>
+			<li>12:04:00</li>
+		</ul>
+		<h1>[4月]<海南海岛环驾8日自驾之旅>海口直飞....</h1>
+		<div class="box11 clearfix">
+		<ul class="nav5 clearfix">
+			<li>自驾游</li>
+			<li>2016-04-07出发</li>
+		</ul>
+		<p><span>￥</span>4580</p>
+		</div>
+		<div class="box12 clearfix">
+			<p>待评价</p>
+			<div class="box13">
+				点评 <i class="fa fa-caret-down" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="box14">
+		<ul class="nav6 clearfix">
+			<li>订单号:</li>
+			<li>7185351</li>
+			<li>|<li>
+			<li>已取消</li>
+			<li><span>预订时间:</span></li>
+			<li>2015-12-26</li>
+			<li>12:04:00</li>
+		</ul>
+		<h1>[5月]<食在广东粤菜美食6日自驾>北京直飞....</h1>
+		<div class="box15 clearfix">
+		<ul class="nav7 clearfix">
+			<li>自驾游</li>
+			<li>2016-05-07出发</li>
+		</ul>
+		<p><span>￥</span>4580</p>
+		</div>
+		<div class="box16 clearfix">
+			<p>已取消</p>
+			<div class="box17">
+				查看 <i class="fa fa-caret-down" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript" src="script/fontsizeset.js"></script>
+	<script type="text/javascript" src="script/zepto.min.js"></script>
+	<script type="text/javascript" src="script/zepto-touch.js"></script>
+	<script type="text/javascript" src="script/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+		$(".sanjiao2").click(function(){
+			$(".list1").slideDown(10);
+			$("#box14,#box10,#box6,.box3,.box4").css({"opacity":"0.2","background-color":"#999999"});
+			return false;
+		});
+		$(".list1 li").click(function(){
+			var value = $(this).text();
+			console.log(value);
+			$(".shijian").text(value);
+			$(".list1").slideUp(10);
+			$("#box14,#box10,#box6,.box3,.box4").css({"opacity":"1","background-color":"#ffffff"});
+		});
+			$(".sanjiao1").click(function(){
+			$(".list2").slideDown(10);
+			$("#box14,#box10,#box6").css({"opacity":"0.2","background-color":"#999999"});
+			return false;
+		});
+		$(".list2 li").click(function(){
+			var value = $(this).text();
+			console.log(value);
+			$(".fenlei").text(value);
+			$(".list2").slideUp(10);
+			$("#box14,#box10,#box6").css({"opacity":"1","background-color":"#ffffff"});
+		});
+
+		
+		
+
+
+	</script>
+</body>
+</html>

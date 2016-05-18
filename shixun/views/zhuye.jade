@@ -1,0 +1,792 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Document
+    style(type='text/css').
+      .yc{
+      display: none;
+      color: green;
+      position: absolute;
+      top: 160px;
+      right: 50px;
+      }
+      .ys{
+      display: none;
+      color: red;
+      position: absolute;
+      top: 160px;
+      right: 50px;
+      }
+      .yc1{
+      display: none;
+      color: green;
+      position: absolute;
+      top: 230px;
+      right: 50px;
+      }
+      .ys1{
+      display: none;
+      color: red;
+      position: absolute;
+      top: 230px;
+      right: 50px;
+      }
+    link(rel='stylesheet', type='text/css', href='script/bootstrap.css')
+    link(rel='stylesheet', href='css/yu-style.css')
+  body
+    script(type='text/javascript', src='script/jquery-1.11.1.js')
+    script(type='text/javascript', src='script/bootstrap.min.js')
+    script(type='text/javascript', src='script/jquery.cycle.all.js')
+    //
+      <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Dropdown
+      <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><a href="#">Action</a></li>
+      <li><a href="#">Another action</a></li>
+      <li><a href="#">Something else here</a></li>
+      <li><a href="#">Separated link</a></li>
+      </ul>
+      </div>
+    #header
+      #bigbox
+        #box1
+          a(href='')
+            img(src='images/yu-images/live.png', alt='')
+          ul.list1
+            li.chengshi 北京
+            .dropdown
+              li#dropdownMenu1.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
+                | 切换
+                span.caret
+              .dropdown-menu(aria-labelledby='dropdownMenu1', style="width:706px;font-family:'微软雅黑';font-size:15px;")
+                div(style='float:left;width:46px;height:100px;color:#666;padding-top:3px;') 全国:
+                .city
+                  ul.placeList
+                    li#11.placeName 北京
+                    li#12.placeName 天津
+                    li#13.placeName 河北
+                    li#14.placeName 山西
+                    li#15.placeName 内蒙古
+                    li#21.placeName 辽宁
+                    li#22.placeName 吉林
+                    li#23.placeName 黑龙江
+                    li#31.placeName 上海
+                    li#32.placeName 江苏
+                    li#33.placeName 浙江
+                    li#34.placeName 安徽
+                    li#35.placeName 福建
+                    li#36.placeName 江西
+                    li#37.placeName 山东
+                    li#41.placeName 河南
+                    li#42.placeName 湖北
+                    li#43.placeName 湖南
+                    li#44.placeName 广东
+                    li#45.placeName 广西
+                    li#46.placeName 海南
+                    li#50.placeName 重庆
+                    li#51.placeName 四川
+                    li#52.placeName 贵州
+                    li#53.placeName 云南
+                    li#54.placeName 西藏
+                    li#61.placeName 陕西
+                    li#62.placeName 甘肃
+                    li#63.placeName 青海
+                    li#64.placeName 宁夏
+                    li#65.placeName 新疆
+        #box2
+          a(href='')
+            img(src='images/yu-images/phone.png', alt='')
+          a(href='http://www.izijia.cn/app_down') 下载手机APP
+        #box3
+          a(href='https://graph.qq.com/oauth/show?which=ConfirmPage&display=pc&client_id=101245346&redirect_uri=http%3A%2F%2Fmember.izijia.cn%2Fqq_login.php&response_type=code&scope=get_user_info%2Cadd_share')
+            img.nav1(src='images/yu-images/qq.gif', alt='')
+          a(href='https://api.weibo.com/oauth2/authorize?client_id=1194106718&redirect_uri=http%3A%2F%2Fmember.izijia.cn%2F%2Findex.php%3Fs%3D%2Fhome%2Faddons%2Fexecute%2F_addons%2Fsync_login%2F_controller%2Fbase%2F_action%2Fcallback%2Ftype%2Fsina.html&response_type=code')
+            img.nav2(src='images/yu-images/sina.png', alt='')
+          ul.list2
+            li(data-toggle='modal', data-target='#myModal')
+              | 登录
+            // <li><a href="">登录</a></li>
+            li |
+            li(data-toggle='modal', data-target='#dlModal')
+              | 注册
+    .goheader
+      .bigbox1
+        .box4
+          img(src='images/yu-images/logo.jpg', alt='')
+        ul.list3
+          li
+            a(href='#') 首页
+          li
+            a(href='#') 目的地
+          li
+            a(href='#') 路线
+          li
+            a(href='#') 定制
+          li
+            a(href='#')
+              span 自驾团
+          li
+            a(href='#') 摄影
+          li
+            a(href='#') 活动
+          li
+            a(href='#') 精选
+          li
+            a(href='#') 预定
+    #banner
+      ul.picList
+        li
+          img(src='images/yu-images/xiaocar.jpg', alt='')
+        li
+          img(src='images/yu-images/xiaoche1.jpg', alt='')
+    #mid
+      #box5
+        .box6
+          input.susuo(type='text', value='温泉')
+          // <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          a(href='html/page10.html')
+            input.btn(type='button')
+        ul.list4
+          li 热门搜索：
+          li 北京
+          li 西安
+          li 天津
+          li 上海
+          li 杭州
+          li 青海
+          li 西藏
+          a(href='page1.html')
+            li 南京
+    #box6
+      ul.list5
+        li 首页
+        li >
+        li 自驾团
+        li >
+        li 自驾团领队详情页
+      #box8
+        .box7
+        p.nav1 领队介绍
+      #box11
+        #box9
+          img(src='images/yu-images/lang.jpg', alt='')
+          .box10
+            ul
+              li 中国自驾游联盟南京
+              li 站
+        p
+          | 自2005年开始，南京首家专业自驾车旅游公司——“中国自驾游联盟”，本着以城市为中心,以旅行社为龙头,以自驾游自助游为纽带的发展宗旨。通过强劲的发展，现已覆盖全国20个省200多个城市，总部设在南京，"在专业保障，旅游保险，特色活动，媒体支撑"的指导思想指引下，平均车友组织实施自驾旅游活动百余次，参加人员达到万人！近年来，我们策划与服务的自驾游车队达到400余个，参加车辆超过200两，参加车友近十万多次！我们的行程遍布了华南，华中，华北，西南西北20余省，区。并多次成功举办主题自驾活动，同时在尝试开闭国外自驾游市场，引导及推动中国自驾游的方向与潮流，赢得了广大的媒体与各路车会的支持的关注与信任，成为本地区自驾游最具有活力，最具有经验，最具有口碑的专业机构。
+    #box12
+      .box13
+      p.nav2 领队产品
+    #box14
+      ul.list5
+        li.yanse1 综合排序
+        li.dropdown.yanse
+          | 出发时间
+          img#dLabel(src='images/yu-images/sanjiao.gif', alt='', type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          ul.dropdown-menu(aria-labelledby='dLabel')
+            li 2016年4月15日
+            li 2016年4月16日
+            li 2016年4月20日
+            li 2016年4月24日
+            li 2016年4月30日
+        li.dropdown.yanse
+          | 价格
+          img#dLabel(src='images/yu-images/sanjiao.gif', alt='', type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          ul.dropdown-menu(aria-labelledby='dLabel')
+            li 1000-3000
+            li 1220-2000
+            li 1300-2100
+            li 800-1300
+            li 1020-3000
+        li.dropdown.yanse
+          | 天数
+          img#dLabel(src='images/yu-images/sanjiao.gif', alt='', type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          ul.dropdown-menu(aria-labelledby='dLabel')
+            li 8天
+            li 10天
+            li 5天
+            li 3天
+            li 15天
+      ul.list6
+        li.daxiao1 共122个活动
+        li.daxiao2
+          span 1
+          | /4
+        li.daxiao3
+          img.zuosanjiao(src='images/yu-images/zuosanjiao.gif', alt='')
+          img.yousanjiao(src='images/yu-images/yousanjiao.gif', alt='')
+    #next
+      .go-on
+        div
+          img(src='images/yu-images/view/yunnan.jpg', alt='')
+        ul.list7
+          li.a1
+            | 4580
+            span 起
+          li.a2 2016-12-31出发
+          li.a3 7天
+        p.nav3 昆明—建水—元阳·—元江—玉溪—东川
+        p.nav4 壮美东川，光影元阳
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on1
+        div
+          img(src='images/yu-images/view/guangdong.jpg', alt='')
+        ul.list7
+          li.a1
+            | 3680
+            span 起
+          li.a2 2016-12-29出发
+          li.a3 6天
+        p.nav6 广州—开平—番禺—深圳
+        p.nav7 领略岭南风光，品味地道美食
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on2
+        div
+          img(src='images/yu-images/view/hulunbeier.jpg', alt='')
+        ul.list7
+          li.a1
+            | 3880
+            span 起
+          li.a2 2016-12-15出发
+          li.a3 7天
+        p.nav8 海拉尔—呼和诺尔—冷极村—敖鲁古雅 冰雪
+        p.nav9 领略岭南风光，品味地道美食
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+    #next1
+      .go-on3
+        div
+          img(src='images/yu-images/view/caiyunzhinan.jpg', alt='')
+        ul.list7
+          li.a1
+            | 11800
+            span 起
+          li.a2 2016-09-03出发
+          li.a3 25天
+        p.nav10  南京—重庆—普者黑—元阳—泸沽湖
+        p.nav11 不一样的云南发现之旅
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on4
+        div
+          img(src='images/yu-images/view/putuoshan.jpg', alt='')
+        ul.list7
+          li.a1
+            | 1280
+            span 起
+          li.a2 2016-03-08出发
+          li.a3 3天
+        p.nav12 南京—朱家尖—普陀山—宁波
+        p.nav13 海天佛国，南海圣境
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on5
+        div
+          img(src='images/yu-images/view/guangxi.jpg', alt='')
+        ul.list7
+          li.a1
+            | 4680
+            span 起
+          li.a2 2016-07-12出发
+          li.a3 12天
+        p.nav14 南京—桂林—凭祥—北海—阳朔
+        p.nav15 尽情领略广西风光，深入体验中越边关风采。
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+    #next2
+      .go-on6
+        div
+          img(src='images/yu-images/view/qiandong.jpg', alt='')
+        ul.list7
+          li.a1
+            | 4580
+            span 起
+          li.a2 2016-06-21出发
+          li.a3 12天
+        p.nav16  南京—西江—黄果树—荔波—桂林
+        p.nav17 返璞归真，回归自然。
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on7
+        div
+          img(src='images/yu-images/view/chenxi.jpg', alt='')
+        ul.list7
+          li.a1
+            | 3580
+            span 起
+          li.a2 2016-05-21出发
+          li.a3 8天
+        p.nav18 昆明—丽江—香格里拉—大理
+        p.nav19 最经典滇西北行程，体验梦中的香格里拉。
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on8
+        div
+          img(src='images/yu-images/view/shuye.jpg', alt='')
+        ul.list7
+          li.a1
+            | 3580
+            span 起
+          li.a2 2016-04-16出发
+          li.a3 8天
+        p.nav20 成都—普洱—望天树—傣族园—抚仙湖
+        p.nav21 大理双廊洱海、腾冲银杏
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+    #next3
+      .go-on9
+        div
+          img(src='images/yu-images/view/ejinaqi.jpg', alt='')
+        ul.list7
+          li.a1
+            | 3680
+            span 起
+          li.a2 2016-04-11出发
+          li.a3 10天
+        p.nav22 重庆—西安—额济纳旗—张掖—天水
+        p.nav23 国庆专辑—终极完美金秋额济纳旗环线自驾
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on10
+        div
+          img(src='images/yu-images/view/nanjiang.jpg', alt='')
+        ul.list7
+          li.a1
+            | 1280
+            span 起
+          li.a2 2016-03-21出发
+          li.a3 3天
+        p.nav24 成都—南江—光雾山—南江—成都
+        p.nav25 一方神奇秀丽的自然山水
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on11
+        div
+          img(src='images/yu-images/view/langya1.jpg', alt='')
+        ul.list7
+          li.a1
+            | 1580
+            span 起
+          li.a2 2016-03-11出发
+          li.a3 4天
+        p.nav26 北京—台儿庄—琅琊台—东营—北京
+        p.nav27 寻梦琅琊，探秘琅琊台
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+    #next4
+      .go-on12
+        div
+          img(src='images/yu-images/view/changbaishan.jpg', alt='')
+        ul.list7
+          li.a1
+            | 4580
+            span 起
+          li.a2 2016-02-26出发
+          li.a3 9天
+        p.nav28 北京—长白山—敦化—雪乡—哈尔滨
+        p.nav29 梦幻雪乡，北国童话
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on13
+        div
+          img(src='images/yu-images/view/chaganhu.jpg', alt='')
+        ul.list7
+          li.a1
+            | 3280
+            span 起
+          li.a2 2016-02-20出发
+          li.a3 6天
+        p.nav30 北京—松原市—雾凇岛—雪谷—雪乡
+        p.nav31 体验如同童话世界一样的美景
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on14
+        div
+          img(src='images/yu-images/view/huangguoshu.jpg', alt='')
+        ul.list7
+          li.a1
+            | 2580
+            span 起
+          li.a2 2016-02-11出发
+          li.a3 6天
+        p.nav32 成都—遵义—贵阳—黄果树—赤水
+        p.nav33 黄果树、南江大峡谷、龙宫、赤水
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+    #next5
+      .go-on15
+        div
+          img(src='images/yu-images/view/jiuzhaigou.jpg', alt='')
+        ul.list7
+          li.a1
+            | 1880
+            span 起
+          li.a2 2016-02-11出发
+          li.a3 5天
+        p.nav34 重庆—广元—文县—九寨沟—都江堰
+        p.nav35 走进童话冰雪世界
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on16
+        div
+          img(src='images/yu-images/view/hainan.jpg', alt='')
+        ul.list7
+          li.a1
+            | 3980
+            span 起
+          li.a2 2016-01-11出发
+          li.a3 7天
+        p.nav36 海口—文昌—海棠湾—三亚—乐东
+        p.nav37 深度环岛自驾体验
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+      .go-on17
+        div
+          img(src='images/yu-images/view/bipenggou.jpg', alt='')
+        ul.list7
+          li.a1
+            | 1580
+            span 起
+          li.a2 2016-11-16出发
+          li.a3 4天
+        p.nav38 成都—米亚罗—古尔沟—毕棚沟
+        p.nav39 中国最大的红叶观赏区
+        .smb1
+          img(src='images/yu-images/ren.png', alt='')
+        p.nav5 中国自驾游联盟南京站
+        ul.list8
+          li
+            img.pc(src='images/yu-images/yanjing.png')
+          li#l 36
+          li
+            img.pic(src='images/yu-images/shou.png')
+          li#s 0
+    #footer1
+      ul.list9
+        li <<
+        li <
+        a(href='html/page8.html')
+          li 1
+        a(href='html/page1.html')
+          li 2
+        a(href='html/page13.html')
+          li 3
+        li 4
+        a(href='html/page8.html')
+          li >
+        li >>
+        .clear
+    #footer2
+      ul
+        li
+          span 人民交通出版社
+        li
+          span 爱自驾
+        li
+          span 联系我们
+        li
+          span 友情链接
+        li
+          span 爱自驾品牌店
+    #footer3
+      ul
+        li 人民交通出版社股份有限公司
+        li 京ICP备15018898号-1
+    // Modal
+    #myModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+      .modal-dialog(role='document')
+        .modal-content
+          .bigmodal
+            .modal-header
+              button.close(type='button', data-dismiss='modal', aria-label='Close')
+                span(aria-hidden='true') ×
+              img.aizijia(src='images/yu-images/aizijialogo.jpg', alt='')
+              // <img src="images/yu-images/cha.gif" alt="" class="cha">
+              // <form action="/login" method="post">
+              form(action='/', method='post')
+                input.txt1(type='text', placeholder='邮箱/手机/用户名', name='username')
+                span.yc 验证成功
+                span.ys 验证失败
+                input.txt2(type='password', placeholder='密码', name='password')
+                span.yc1 密码正确
+                span.ys1 密码错误
+                a(href='html/gerenzhongxinyemian.html')
+                  input.btn(type='button', value='登录')
+              .midmodal
+                p.p1 忘记密码
+                p.p2 还没有账号？免费注册
+              img.qita(src='images/yu-images/qita.gif', alt='')
+              input.btn.btn1(type='button', value='不登录，直接报名>')
+    #dlModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+      .modal-dialog(role='document')
+        .modal-content
+          .midmodal
+            .modal-header
+              button.close(type='button', data-dismiss='modal', aria-label='Close')
+                span(aria-hidden='true') ×
+              img.aizijia(src='images/yu-images/aizijialogo.jpg', alt='')
+              // <img src="images/yu-images/cha.gif" alt="" class="cha">
+              p.p3 用手机注册
+              input.txt3(type='text', placeholder='请输出邮箱')
+              input.txt4(type='text', placeholder='用户名,4-16个字符,字母/中文/数字')
+              input.txt5(type='text', placeholder='设置密码')
+              input.txt6(type='text', placeholder='输入密码')
+              input.txt7(type='text', placeholder='输入邀请码，可不填')
+              .smmodal
+                p.p4
+                  | 注册视为同意
+                  span 《爱自驾用户使用协议》
+                input.btn.btn2(type='button', value='注册')
+                img.qita1(src='images/yu-images/qita.gif', alt='')
+              input.btn.btn3(type='button', value='快速登录>')
+    script(type='text/javascript', charset='utf-8', src='script/jquery.leanModal.min.js')
+    script(type='text/javascript').
+      $(".picList").cycle();
+      var reg1 =  /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\\.[a-zA-Z0-9_-]{2,3}){1,2})$/
+      $(".txt3").blur(function(){
+      var val = $(this).val();
+      var result = reg1.test(val);
+      var $span = $("<span1></span1>")//span前面加$是创建一个对象
+      $(".modal-header").append($span)
+      if(result){
+      $span.addClass("green")
+      $span.text("验证通过")
+      $(".red").css("display","none")
+      }else{
+      $span.addClass("red")
+      $span.text("验证失败")
+      $(".green").css("display","none")
+      }
+      })
+      var reg2 =  /^([a-zA-Z0-9]{4,16})$/
+      $(".txt4").blur(function(){
+      var val = $(this).val();
+      var result = reg2.test(val);
+      var $span = $("<span1></span1>")//span前面加$是创建一个对象
+      $(".modal-header").append($span)
+      if(result){
+      $span.addClass("green1")
+      $span.text("验证通过")
+      $(".red1").css("display","none")
+      }else{
+      $span.addClass("red1")
+      $span.text("验证失败")
+      $(".green1").css("display","none")
+      }
+      })
+      $(".yousanjiao").click(function(){
+      var val = $(".daxiao2 span").text();
+      console.log(val);
+      if(val<4){
+      val++
+      $(".daxiao2 span").text(val);
+      }
+      })
+      $(".zuosanjiao").click(function(){
+      var val = $(".daxiao2 span").text();
+      console.log(val);
+      if( val != 5){
+      val--
+      $(".daxiao2 span").text(val);
+      }
+      })
+      $(".zuosanjiao").click(function(){
+      var val = $(".daxiao2 span").text();
+      if(val == 0){
+      val++
+      $(".daxiao2 span").text(val);
+      }
+      })
+      $(".pic").click(function(){
+      var val = $(this).parent().next().text()
+      if(val == 0){
+      val++
+      $(this).attr("src","images/yu-images/niu.jpg")
+      }else{
+      val--
+      $(this).attr("src","images/yu-images/shou.png")
+      }
+      $(this).parent().next().text(val);
+      })
+      $(".pc").click(function(){
+      var val = $(this).parent().next().text();
+      if(val == 36){
+      val++
+      $(this).attr("src","images/yu-images/yanjing1.png")
+      }else{
+      val--
+      $(this).attr("src","images/yu-images/yanjing.png")
+      }
+      $(this).parent().next().text(val);
+      })
+      $(".palceList li").click(function(){
+      var val = $(this).text();
+      console.log(val)
+      $(".chengshi").text(val)
+      })
+      $(".txt1").blur(function(){
+      $.post("/text",{username:$(".txt1").val()},function(result){
+      if(result){
+      $(".yc").css("display","block");
+      $(".ys").css("display","none");
+      }else{
+      $(".yc").css("display","none");
+      $(".ys").css("display","block");
+      }
+      })
+      })
+      $(".txt2").blur(function(){
+      $.post("/text1",{username:$(".txt2").val()},function(result){
+      if(result){
+      $(".yc1").css("display","block");
+      $(".ys1").css("display","none");
+      }else{
+      $(".yc1").css("display","none");
+      $(".ys1").css("display","block");
+      }
+      })
+      })

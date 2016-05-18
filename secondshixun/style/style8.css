@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before,.clearfix:after{
+	display: block;
+	content: "";
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+@font-face{
+	font-family: myfont;
+	src:url(fonts/STHeiti-Light.ttc);
+}
+html,body{
+	font-family: myfont;
+}
+#container{
+	width: 100%;
+}
+header{
+	width: 100%;
+	background-color: #50bbdb;
+	color: #fff;
+}
+header h1{
+	height: 0.88rem;
+	background-color: #50bbdb;
+	color: #fff;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.88rem;
+	width: 2rem;
+	margin: 0px auto;
+}
+header p{
+	width: 1rem;
+	font-size: 0.24rem;
+	float: right;
+	margin-top: -0.54rem;
+	margin-right: 0.21rem;
+}
+header .zuo{
+	font-size: 0.4rem;
+	float: left;
+	margin-top: 0.23rem;
+	margin-left: 0.45rem;
+}
+section{
+	width: 100%;
+}
+.box1{
+	height: 0.78rem;
+	width: 100%;
+	margin: 0px auto;
+	border-bottom: 1px solid #ccc;
+}
+.box1 .xia{
+	text-align: center;
+	font-size: 0.4rem;
+	text-align: center;
+	float: left;
+	margin-left: 2.09rem;
+	margin-top: 0.22rem;
+	color: #50bbdb;
+}
+.box1 p{
+	font-size: 0.28rem;
+	float: left;
+	margin-left: 0.42rem;
+	margin-top: 0.22rem;
+	color: #50bbdb;
+}
+.nav1{
+	height: 1.19rem;
+	border-bottom: 1px solid #ccc;
+	margin: 0px auto;
+	width: 92%;
+
+}
+.nav1 li{
+	font-size: 0.22rem;
+	/*padding-left: 0.45rem;*/
+	padding-top: 0.28rem;
+	list-style: none;
+}
+.nav1 span{
+	margin-left: 1.97rem;
+	font-weight: bold;
+}
+.nav2{
+	height: 1.49rem;
+	border-bottom: 1px solid #ccc;
+	margin: 0px auto;
+	width: 92%;
+}
+.nav2 li{
+	font-size: 0.22rem;
+	/*padding-left: 0.45rem;*/
+	padding-top: 0.19rem;
+	list-style: none;
+}
+.nav2 span{
+	margin-left: 2rem;
+	font-weight: bold;
+}
+.box2{
+	width: 92%;
+	font-size: 0.22rem;
+	margin: 0px auto;
+	height: 0.93rem;
+	padding-top: 0.2rem;
+}
+.box2 span{
+	margin-left: 3.8rem;
+	font-weight: bold;
+
+}
+footer{
+	background-color: #f6f6f6;
+	height: 3.90rem;
+}
+footer h1{
+	font-size: 0.21rem;
+	width: 92%;
+	margin: 0px auto;
+	padding-top: 0.56rem;
+
+}
+.box3{
+	width: 5.42rem;
+	height: 0.69rem;
+	width: 92%;
+	margin: 0px auto;
+	margin-top: 0.96rem;
+	font-size: 0.32rem;
+	border: 2px solid #e5e5e5;
+	line-height: 0.69rem;
+	text-align: center;
+	color: #50bbdb;
+	font-weight: bold;
+} 

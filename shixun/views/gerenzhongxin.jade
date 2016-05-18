@@ -1,0 +1,537 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title 个人中心页面
+    link(rel='stylesheet', type='text/css', href='../css/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='../css/gerenzhongxinyemian.css')
+    link(href='../css/grey.css', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='../css/dianpingkuang.css')
+    link(rel='stylesheet', type='text/css', href='../css/star-rating-svg.css')
+  body
+    // Modal
+    #myModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+      .modal-dialog(role='document')
+        .modal-content
+          #bigbox
+            #headermeng
+              .headermeng1
+                p 行程点评
+                img.close(src='../images/meng1-images/modal-m.png', data-dismiss='modal', aria-label='Close')
+            #containermeng
+              .containermeng1
+                textarea#shuru
+              .containermeng2
+                .containermeng21
+                  .containermeng211
+                    p 行程安排：
+                    input.one(type='radio', name='iCheck', checked='')
+                    label.manyi(for='one') 满意
+                    input.one(type='radio', name='iCheck')
+                    label.manyi(for='one') 不满意
+                    input.one(type='radio', name='iCheck')
+                    label.manyi(for='one') 一般
+                  .containermeng212
+                    p 住宿餐食：
+                    input.two(type='radio', name='iCheck_2', checked='')
+                    label.manyi2(for='two') 满意
+                    input.two(type='radio', name='iCheck_2')
+                    label.manyi2(for='two') 不满意
+                    input.two(type='radio', name='iCheck_2')
+                    label.manyi2(for='two') 一般
+                  .containermeng213
+                    p 旅行交通：
+                    input.three(type='radio', name='icheck_3', checked='')
+                    label.manyi3(for='three') 满意
+                    input.three(type='radio', name='icheck_3')
+                    label.manyi3(for='three') 不满意
+                    input.three(type='radio', name='icheck_3')
+                    label.manyi3(for='three') 一般
+                .containermeng22
+                  .containermeng221
+                    p 综合评价：
+                  .containermeng222
+                    .my-rating
+            #footermeng
+              .footermeng1
+                .footermeng11
+                  a(href='')
+                    img(src='../images/meng1-images/shaitu-m.gif')
+                .footermeng12
+                  a(href='')
+                    img(src='../images/meng1-images/jia-m.gif')
+                  p 0/5
+              .footermeng2
+                a(href='')
+                  img(src='../images/meng1-images/tiaojiao-m.gif')
+    #header
+      .header1
+        .header11
+          .header111
+            img(src='../images/meng1-images/4.png')
+            p.toubu1 北京
+            a(href='#') 切换
+          .dingwei
+            .top1-dingwei
+              ul.dingwei1
+                | 全国:
+              ul.dingwei2
+                li 北京
+                li 天津
+                li 河北
+                li 山西
+                li 内蒙古
+                li 辽宁
+                li 吉林
+                li 黑龙江
+                li 上海
+                li 江苏
+                li 浙江
+                li 安徽
+                li 福建
+                li 江西
+                li 山东
+                li 河南
+                li 湖北
+                li 湖南
+                li 广东
+                li 广西
+                li 海南
+                li 重庆
+                li 四川
+                li 贵州
+                li 云南
+                li 西藏
+                li 陕西
+                li 甘肃
+                li 青海
+                li 宁夏
+                li 西藏
+          .header113
+            img(src='../images/meng1-images/5.png')
+            a(href='') 下载手机APP
+          .header115
+            img(src='../images/meng1-images/6.jpg')
+          .header116
+            p 浮生若梦_JKAy 
+            ul.yi
+              li
+                a(href='') 个人主页
+              li
+                a(href='') 消息中心
+              li
+                a(href='') 注销
+          .header117
+            img(src='../images/meng1-images/8.gif')
+          .header118
+            a(href='')
+              img(src='../images/meng1-images/7.jpg')
+      .header2
+        .header22
+          .header221
+            img(src='../images/meng1-images/logo.jpg')
+          .header222
+            ul.yuding
+              li
+                a(href='') 首页
+              li
+                a(href='') 目的地
+              li
+                a(href='') 线路
+              li
+                a(href='') 定制
+              li
+                a(href='') 自驾团
+              li
+                a(href='') 摄影
+              li
+                a(href='') 互动
+              li
+                a(href='') 精选
+              li
+                a(href='') 预定
+      .header3
+        .header31
+          img(src='../images/meng1-images/girl.jpg')
+        .header32
+          .header321
+            p 浮生若梦_JKAy
+          .header322
+            a(href='')
+              img(src='../images/meng1-images/9.jpg')
+          .header323
+            .header3231
+              p.p1 0
+              a.a1(href='') 关注
+            .header3233
+              img(src='../images/meng1-images/10.gif')
+            .header3232
+              p.p1 0
+              a.a1(href='') 粉丝
+        .header33
+          img(src='../images/meng1-images/erweima.png')
+          p 扫一扫，关注我
+        .header34
+          a(href='')
+            img(src='../images/meng1-images/cam.png')
+          p
+            a(href='') 发布照片
+        .header35
+          a(href='')
+            img(src='../images/meng1-images/guanli.png')
+          p
+            a(href='') 管理互动
+    #container
+      .container1
+        p 我的订单
+        ul
+          li
+            a(href='') 全部订单
+          li
+            a(href='') 待出行
+          li
+            a(href='') 待支付
+          li
+            a(href='#myModal') 待评价
+          li
+            a(href='') 已取消
+      .container2
+        .container21
+          .container211
+            .container2111
+              select
+                option(value='volvo') 按条件
+                option(value='saab') 按日期
+                option(value='opel') 按地址
+          .container212
+            .container2121
+              input#txt(type='text')
+          .container213
+            .container2131
+              select
+                option(value='volvo') 状态
+                option(value='volvo') 已支付
+                option(value='saab') 已取消
+                option(value='opel') 待支付
+          .container214
+            img(src='../images/meng1-images/21.jpg')
+          .container215
+            p 至
+          .container216
+            .container2161
+              input#txt1(type='date')
+          .container217
+            img(src='../images/meng1-images/21.jpg')
+          .container218
+            .container2181
+              input#txt2(type='date', value='单号')
+          .container219
+            a(href='')
+              img(src='../images/meng1-images/20.gif')
+        .container22
+          ul
+            li.list2
+              a(href='') 订单信息
+            li.list 产品类型
+            li.list 出游日期
+            li.list 订单金额
+            li.list 订单状态
+            li.list1 操作
+        .container23
+          .container231
+            p 订单编号：7195351
+          .container232
+            p 预订时间：2015-12-29 12:04:00
+        .container24
+          .container241
+            img(src='../images/meng1-images/12.jpg')
+          .container242
+            p.p11 [春节]
+            p 湘西年夜饭，北京直飞
+          .container243
+            ul
+              li 自驾游
+              li 2016-02-07
+              li ￥4580
+              li.sp
+                span 待出行
+              li.li1
+                select
+                  option(value='volvo') 取消
+                  option(value='volvo') 支付
+                  option(value='saab') 完成
+        .container25
+          .container251
+            p 订单编号：7195351
+          .container252
+            p 预订时间：2015-12-25 12:04:00
+        .container26
+          .container261
+            img(src='../images/meng1-images/13.jpg')
+          .container262
+            p.p11
+              span [5月]
+          .container263
+            ul
+              li 自驾游
+              li 2016-05-07
+              li ￥4580
+              li.sp
+                span 待支付
+              li.li2
+                select
+                  option(value='volvo') 支付
+                  option(value='volvo') 取消
+                  option(value='saab') 完成
+        .container27
+          .container271
+            p 订单编号：7195351
+          .container272
+            p 预订时间：2015-12-25 12:04:00
+        .container28
+          .container281
+            img(src='../images/meng1-images/14.jpg')
+          .container282
+            p.p11
+              span [4月]
+          .container283
+            ul
+              li.zijia 自驾游
+              li 2016-04-07
+              li ￥4580
+              li.sp
+                span 待评价
+              li.li1
+                select
+                  option(value='volvo') 点评
+                  option(value='volvo') 支付
+                  option(value='volvo') 取消
+                  option(value='saab') 完成
+        .container29
+          .container291
+            p 订单编号：7195351
+          .container292
+            p 预订时间：2015-12-25 12:04:00
+        .container20
+          .container201
+            img(src='../images/meng1-images/15.jpg')
+          .container202
+            p.p11
+              span [5月]
+          .container203
+            ul
+              li 自驾游
+              li 2016-05-07
+              li ￥4580
+              li.sp
+                span 已取消
+              li.li1
+                select
+                  option(value='volvo') 查看
+                  option(value='volvo') 支付
+                  option(value='volvo') 取消
+                  option(value='saab') 完成
+        .container30
+          p
+            a(href='') 加载更多
+      .container3
+        p 我的收藏
+        ul.kandian
+          li 看点
+          li 停车发呆地
+          li 高德地图点
+          li 私享点
+          li 线路
+          li 自驾团
+      .container4
+        ul.kandian1
+          li.block 暂无收藏看点
+          li.none 暂无收藏停车发呆地
+          li.none 暂无收藏高德地图点
+          li.none 暂无收藏私享点
+          li.none 暂无收藏线路
+          li.none 暂无收藏自驾团
+        p.wode
+          a 我的线路
+      .container5
+        p 暂无线路数据
+        p.wode1
+          a 我的车队
+      .container6
+        .container61
+          img(src='../images/meng1-images/16.jpg')
+          .container62
+            .container621
+              p 创建车队
+              img(src='../images/meng1-images/22.png')
+            .container622
+              p 我的线路
+              select
+                option(value='volvo') 选择线路
+                option(value='volvo') 北京——秦皇岛
+                option(value='volvo') 大连——哈尔滨
+                option(value='volvo') 上海——深圳
+                option(value='saab') 中国——韩国
+                option(value='saab') 拉萨——新疆
+              input(type='button', value='确定')
+            .container623
+              p 我的成员
+              input(type='text', placeholder='请输入成员名')
+              input(type='button', value='搜索')
+        p.wode
+          a 我的照片
+        p.zhaopian 照片
+      .container7
+        .container71
+          img(src='../images/meng1-images/17.jpg')
+          .container711
+            .container7111
+              p 上传照片
+              img(src='../images/meng1-images/23.png')
+            .container7112
+              p 上传到
+              select
+                option(value='volvo') 我的电脑
+                option(value='volvo') 我的空间
+                option(value='volvo') 我的云盘
+              input(type='button', value='确定')
+        .container73
+          img(src='../images/meng1-images/18.jpg')
+          .container731
+            .container7311
+              p 新建相册
+              img(src='../images/meng1-images/22.png')
+            .container7312
+              p 相册名称
+              input#txta(type='text')
+              input#txtb(type='button', value='确定')
+        .container72
+          a(href='')
+            img(src='../images/meng1-images/19.jpg')
+          p 分享专属
+    #footer
+      .footer1
+        ul.footer11
+          li
+            a(href='') 人民交通出版社
+          li
+            a(href='') 爱自驾
+          li
+            a(href='') 联系我们
+          li
+            a(href='') 友情链接
+          li
+            a(href='') 爱自驾品牌店
+      .footer2
+        p.footer21 人民交通出版社股份有限公司
+        p 京ICP备15018898号-1
+    script(type='text/javascript', src='../js/jquery-1.11.1.js')
+    script(type='text/javascript', src='../js/jquery.star-rating-svg.js')
+    script(type='text/javascript', src='../js/bootstrap.min.js')
+    script(src='../js/icheck.js')
+    script(type='text/javascript').
+      $(".header116 p").click(function(){
+      $(".yi").css("display","block")
+      $(".yi li a").css("display","block")
+      })
+      $(".header116 p").mouseenter(function(){
+      $(this).css("color","#50bbdb")
+      })
+      $(".header116 p").mouseleave(function(){
+      $(this).css("color","white")
+      })
+      $(".container61 img").click(function(){
+      $(".container62").show();
+      })
+      $(".container621 img").click(function(){
+      $(".container62").hide();
+      })
+      $(".container71 img").click(function(){
+      $(".container711").show();
+      })
+      $(".container7111 img").click(function(){
+      $(".container711").hide();
+      })
+      $(".container73 img").click(function(){
+      $(".container731").show();
+      })
+      $(".container7311 img").click(function(){
+      $(".container731").hide();
+      })
+      $(".yuding li").mouseenter(
+      function(){
+      $(this).addClass("active")
+      })
+      $(".yuding li").mouseleave(function(){
+      $(this).removeClass("active")
+      })
+      $(".kandian li").click(function(){
+      var index = $(this).index();
+      $(".kandian1 li").eq(index).css("display","block").siblings().css("display","none");
+      })
+      $(".footer11 li a").mouseenter(function(){
+      $(this).css("color","#50bbdb")
+      })
+      $(".footer11 li a").mouseleave(function(){
+      $(this).css("color","white");
+      })
+      $(".header118 a img").mouseenter(function(){
+      $(this).attr("src","../images/meng1-images/xianlu.gif");
+      // $(this).attr("src","images
+      //  /xianlu.gif")
+      })
+      $(".header118 a img").mouseleave(function(){
+      $(this).attr("src","../images/meng1-images/7.jpg");
+      })
+      // $(".header118 a img").mouseleave(function(){
+      //    $(this).attr("src","images
+      //      /7.jpg")
+      // })
+      $(".header113").mouseenter(function(){
+      $(".header113 img").attr("src","../images/meng1-images/phone-blue.png")
+      $(".header113 a").css("color","#50bbdb")
+      })
+      $(".header113").mouseleave(function(){
+      $(".header113 img").attr("src","../images/meng1-images/5.png")
+      $(".header113 a").css("color","white")
+      })
+      $(".header111").mouseenter(function(){
+      $(this).find("img").attr("src","../images/meng1-images/live-blue.png");
+      $(this).find("p").css("color","#50bbdb");
+      $(this).find("a").css("color","#50bbdb");
+      }).mouseleave(function(){
+      $(this).find("img").attr("src","../images/meng1-images/4.png");
+      $(this).find("p").css("color","#ffffff");
+      $(this).find("a").css("color","#cecccc");
+      })
+      $(".header111").click(function(){
+      $(".top1-dingwei").css("display","block");
+      });
+      $(".dingwei").click(function(){
+      $(".top1-dingwei").css("display","none");
+      });
+      $(".dingwei2 li").click(function(){
+      var txt = $(this).text();
+      $(".toubu1").text(txt);
+      })
+      $(".top1-dingwei .dingwei2 li").mouseenter(function(){
+      $(this).css("background-color","#CEF6F5");
+      }).mouseleave(function(){
+      $(this).css("background-color","#ffffff");
+      })
+      $(".container1 a").click(function(){
+      $('#myModal').modal();
+      })
+      $(".my-rating").starRating({
+      starSize: 25,
+      callback: function(currentRating, $el){
+      // make a server call here
+      }
+      });
+      $(document).ready(function(){
+      $('input').iCheck({
+      // checkboxClass: 'icheckbox_minimal-grey',
+      radioClass: 'iradio_minimal-grey',
+      increaseArea: '20%' // optional
+      });
+      });

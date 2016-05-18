@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before,.clearfix:after{
+	display: block;
+	content: "";
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+@font-face{
+	font-family: myfont;
+	src:url(fonts/STHeiti-Light.ttc);
+}
+html,body{
+	font-family: myfont;
+}
+#container{
+	width: 100%;
+}
+header{
+	width: 100%;
+	background-color: #50bbdb;
+	color: #fff;
+}
+header h1{
+	height: 0.88rem;
+	background-color: #50bbdb;
+	color: #fff;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.88rem;
+	width: 2rem;
+	margin: 0px auto;
+}
+header .zuo{
+	font-size: 0.4rem;
+	float: left;
+	margin-top: 0.23rem;
+	margin-left: 0.45rem;
+}
+.box1{
+	background-color: #ebebeb;
+
+}
+.box1 h1{
+	width: 0.92rem;
+	height: 0.68rem;
+	margin: 0px auto;
+	font-size: 0.22rem;
+	text-align: center;
+	color: #333333;
+	line-height: 0.68rem;
+
+}
+.clear{
+	clear: both;
+}
+.smallbox1{
+	height: 0.34rem;
+	width: 2.66rem;
+	float: left;
+	border-bottom: 1px solid #d5d5d5;
+}
+.smallbox2{
+	height: 0.34rem;
+	width: 2.66rem;
+	float: right;
+	border-bottom: 1px solid #d5d5d5;
+}
+figure{
+	margin-left: 0.42rem;
+	margin-top: 0.19rem;
+	float: left;
+}
+aside{
+	float: right;
+	margin-top: 0.6rem;
+	margin-right: 1.06rem;
+}
+aside h1{
+	font-size: 0.28rem;
+	border-bottom: 1px solid #dbdbdb;
+}
+article{
+	width: 82%;
+	font-size: 0.2rem;
+	list-style: none;
+	margin: 0px auto;
+	border: 1px solid #ccc;
+	padding-bottom: 0.41rem;
+	padding-top: 0.25rem;
+}
+.box2{
+	background-color: #ebebeb;
+
+}
+.box2 h1{
+	width: 0.92rem;
+	height: 0.68rem;
+	margin: 0px auto;
+	font-size: 0.22rem;
+	text-align: center;
+	color: #333333;
+	line-height: 0.68rem;
+}
+.box3{
+	width: 100%;
+}
+.box3 .pic1{
+	width: 96%;
+	margin: 0px auto;
+	display: block;
+}
+.box3 .pic2,.pic3,.pic4,.pic5{
+	width: 96%;
+	margin: 0px auto;
+	display: block;
+	margin-top: 0.1rem;
+}
+footer{
+	background-color: #ebebeb;
+	height: 0.84rem;
+}
+footer h1{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.84rem;
+	color: #666666;
+}
+footer .xia{
+	font-size: 0.2rem;
+}

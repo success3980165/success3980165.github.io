@@ -1,0 +1,31 @@
+[
+    {
+        "username": "zhao",
+        "age": "20",
+        "sex": "男",
+        "password": "123"
+    },
+    {
+        "username": "qian",
+        "age": "20",
+        "sex": "女",
+        "password": "456"
+    },
+    {
+        "username": "sun",
+        "age": "20",
+        "sex": "男",
+        "password": "789"
+    },
+    {
+        "username": "yu",
+        "age": "25",
+        "sex": "男",
+        "password": "1011"
+    },
+    {
+        "mail": "1175@qq.com",
+        "username": "ming",
+        "password": "123456"
+    }
+]
