@@ -117,6 +117,5 @@ html[xmlns] .slides {display: block;}
 	@media (max-width: 480px) {
 		.slides li { width:280px !important;}
 	}
-	@media screen and (min-width: 479px) and (max-width: 767px){
-		.row span .open{display: block;}
+	
 	
