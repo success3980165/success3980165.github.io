@@ -102,6 +102,67 @@ a:hover {
     color:#fdfdfd;
     text-shadow: 1px 1px #000;
 }
+.bigbox p{
+    font-size: 16px;
+}
+.geren{
+    font-size: 26px;
+}
+.xingming{
+    margin-top: 30px;   
+}
+.bigbox1 p{
+    font-size: 16px;
+}
+.jineng{
+    font-size: 26px;
+}
+.gongzuo{
+    font-size: 26px;
+}
+.bigbox2 span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.bigbox2 p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.xiangmu{
+    font-size: 26px;
+}
+.bigbox3 span{
+    font-weight: bold;
+    font-size: 16px;
+}
+.bigbox3 .xuhai{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.bigbox3 p{
+    font-size: 16px;
+}
+.bigbox3 .hetian{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.bigbox3 .yixun{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.jiaoyu{
+    font-size: 26px;
+}
+.bigbox4 p{
+    font-size: 16px;
+}
+.qiuzhi{
+    font-size: 26px;
+}
+.bigbox5 p{
+    font-size: 16px;
+}
+
 img::selection {
     background: transparent;
 }
